@@ -5,13 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Install Net Designer App</title>
     <script>
+
+
         function downloadClickOnce() {
-            const a = document.createElement('a');
-            a.href = 'https://raw.githubusercontent.com/DirkKramer/NetdesignerReleases/attr/published/NetDesigner.application';
-            a.download = 'NetDesigner.application';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
+            fetch('https://raw.githubusercontent.com/DirkKramer/NetdesignerReleases/attr/published/NetDesigner.application')
+                .then(response => response.blob())
+                .then(blob => {
+                    const blobUrl = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = blobUrl;
+                    a.download = 'NetDesigner.application';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(blobUrl);
+                })
+                .catch(error => {
+                    console.error("There was an error fetching the file:", error);
+                });
         }
     </script>
 </head>
