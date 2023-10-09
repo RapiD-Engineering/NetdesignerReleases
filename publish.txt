@@ -1,6 +1,5 @@
 How to publish Net designer: 
 
--  Increment version in Project properties (assembly version and file version)
 -  Publish via Clickonce and specify the update and install location to the github url.
 -  Publish to the .published folder in this repo on your local machine
 -  Check the .application file for wrong codebase paths. (in our case the .application is specified double next to eachother)

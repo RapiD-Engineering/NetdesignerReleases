@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="NetDesigner.exe" version="3.0.0.20" publicKeyToken="0000000000000000" language="nl" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="NetDesigner.exe" version="3.0.0.23" publicKeyToken="0000000000000000" language="nl" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Assets\logo2_9fS_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -198,7 +198,16 @@
       <dsig:DigestValue>rJ+IksD8SLXSAF078WHhgIJdLx25OCESgmdBmRdM1sk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Assets\Materials\Sand\Sand_006_baseColor.jpg" size="440253">
+  <file name="Assets\Netcalculatie.xltx" size="39236">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pR6yDT0Gvi8BWHg8G1HOPCxg6egE3OpVQk/m2HgNYrc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Assets\Sand_006_baseColor.jpg" size="440253">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -207,13 +216,13 @@
       <dsig:DigestValue>/8lT+Af9/R5QNjspHBxuMq79luI5b+H4XGdGZY9phhA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Assets\Netcalculatie.xltx" size="39236">
+  <file name="Assets\sky.jpg" size="2605519">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>pR6yDT0Gvi8BWHg8G1HOPCxg6egE3OpVQk/m2HgNYrc=</dsig:DigestValue>
+      <dsig:DigestValue>Zq29GYGb3kpFpkO1ZSQR2/zcpy1sOk5LOcfjx5e45OE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Assets\Snits\1N10B.JPG" size="116606">
@@ -1629,13 +1638,13 @@
       <dsig:DigestValue>KS6N7fIVBe6Bl/jX1lF7YJB4KR0xbngoXWfiSFsJRVg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NetDesigner.dll" size="877056">
+  <file name="NetDesigner.dll" size="878592">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>x+TFnJvAx7n8qCKGhHCulGXDf7YkiLtwtFry3vpaKf4=</dsig:DigestValue>
+      <dsig:DigestValue>NJ7oH+Qe0SPva7ji2pcf8M8Y4i2amheaN82jVJWs6qA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="NetDesigner.exe" size="128000">
@@ -1653,7 +1662,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>uyAbsmRMys8rby9rEDBi7m2MZEp6UdDfX6rCybKJrzA=</dsig:DigestValue>
+      <dsig:DigestValue>NPNcY4uqeRGM9oXlSSpyZN6Wp1BPcdsKbApEjzmCcXk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="NetDesigner.runtimeconfig.json" size="382">
