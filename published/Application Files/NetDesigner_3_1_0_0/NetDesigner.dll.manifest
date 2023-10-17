@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="NetDesigner.exe" version="3.0.0.30" publicKeyToken="0000000000000000" language="nl" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="NetDesigner.exe" version="3.1.0.0" publicKeyToken="0000000000000000" language="nl" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Assets\logo2_9fS_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -1638,13 +1638,13 @@
       <dsig:DigestValue>s9d9wB6Fa4lWBl0KSJQnoQwSH2t3vQw1zftAf78lUa8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NetDesigner.dll" size="878592">
+  <file name="NetDesigner.dll" size="883712">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>E0bYUw12XuDzRpMnvubOC50VtslSGA4J6O92aL1RzDM=</dsig:DigestValue>
+      <dsig:DigestValue>1S9SaKqnKXKfmFb4tzDBj82RP2VLHg4UGt+RCIrKB/0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="NetDesigner.exe" size="128000">
@@ -1662,7 +1662,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>4Q429zRCexPWPzO/59edFNqwZnkMHAv3+zBsfRd3d60=</dsig:DigestValue>
+      <dsig:DigestValue>JCWmkVZmWAM4pQhH96yMJtu2Vw8Ff261NtJVKSdVTeQ=</dsig:DigestValue>
     </hash>
   </file>
   <file name="NetDesigner.runtimeconfig.json" size="382">
@@ -1680,7 +1680,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>bwrvsdEKUAsAEwHnbQSTGjveNaE7/XAZKowt75OH3I4=</dsig:DigestValue>
+      <dsig:DigestValue>B3FT0QCPPfMju+eZmNl0JtMgknoNKQMoSl0/ndoccQs=</dsig:DigestValue>
     </hash>
   </file>
   <file name="netstandard.dll" size="101136">
